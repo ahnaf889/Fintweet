@@ -1,0 +1,159 @@
+/* ====================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --poppins: "Poppins", sans-serif;
+    --backgorund_color: #1C1E53;
+    --blue_color: #2405F2;
+    --font_color: #282938;
+    --white_color: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,p,a,div,span,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+/* ====================================================== */
+
+/* ======================================================
+                     Nav Bar Part
+========================================================= */
+
+.nav__head{
+    background: var(--backgorund_color);
+    padding: 16px 0;
+}
+
+.nav__items{
+    color: #BBBBCB !important;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.items--nav{
+    color: var(--white_color) !important;
+}
+
+.nav__item{
+    column-gap: 22px;
+}
+
+.nav__item{
+    padding-left: 430px;
+}
+
+.nav__btn{
+    color: var(--white_color);
+    width: 185px;
+    height: 60px;
+    border-radius: 41px;
+    border: 2px solid #F4F6FC33;
+    background: transparent;
+    font-family: var(--white_color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    transition-duration: 0.25s;
+}
+
+.nav__btn:hover{
+    background: #ffff00;
+    color: var(--backgorund_color);
+    border: 2px solid #ffff00;
+}
+
+/* ======================================================
+                     Nav Bar End
+========================================================= */
+/* ======================================================
+                     Banner Bar Part
+========================================================= */
+
+#footer__bg{
+    background: var(--backgorund_color);
+    padding: 126px 0;
+}
+
+.footerOne__title{
+    color: var(--white_color);
+    width: 582px;
+    font-family: var(--poppins);
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footerOne__text{
+    width: 562px;
+    color: var(--white_color);
+    opacity: 0.7;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer__btn{
+    color: var(--backgorund_color);
+    background: #FCD980;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    height: 64px;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    border: none;
+}
+
+.footer__icon{
+    color: var(--white_color);
+    font-family: var(--white_color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.footer__icones{
+    padding-left: 10px;
+    vertical-align: middle;
+    font-size: 17px;
+}
+
+
+/* ======================================================
+                     Banner Bar Part
+========================================================= */
