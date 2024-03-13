@@ -238,6 +238,39 @@ h1,h2,h3,h4,h5,h6,p,a,div,span,ul,ol{
     padding: 128px 0;
 }
 
+.viewFristHead__title{
+    color: var(--font_color);
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.viewFristHead__icon{
+    color: var(--font_color);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.viewFristHead__icons{
+    padding-left: 8px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.viewCard__img{
+    margin-top: -4%;
+}
+
+.viewCard__imgs{
+    margin-top: 10%;
+}
+
 /* ======================================================
                      Work Bar Part
 ========================================================= */
