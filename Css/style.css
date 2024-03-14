@@ -535,3 +535,34 @@ h1,h2,h3,h4,h5,h6,p,a,div,span,ul,ol{
 /* ======================================================
                      About Bar Part
 ========================================================= */
+/* ======================================================
+                     Accord Bar Part
+========================================================= */
+
+#accord__bg{
+    padding: 128px 0;
+    background: var(--white_color);
+}
+
+.accordLeft__title{
+    color: var(--font_color);
+    font-family: var(--poppins);
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.accordLeft__text{
+    color: var(--blue_color);
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+
+/* ======================================================
+                     Accord Bar Part
+========================================================= */
