@@ -542,7 +542,7 @@ h1,h2,h3,h4,h5,h6,p,a,div,span,ul,ol{
 #accord__bg{
     padding: 128px 0;
     background: var(--white_color);
-}
+} 
 
 .accordLeft__title{
     color: var(--font_color);
@@ -561,6 +561,70 @@ h1,h2,h3,h4,h5,h6,p,a,div,span,ul,ol{
     font-weight: 500;
     line-height: 32px;
     letter-spacing: 0em;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    content: "+";
+    font-size: 30px;
+    color: var(--font_color);
+    font-weight: 200;
+    background-image: url();
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: "x";
+    font-size: 25px;
+    color: #ff0000;
+    font-weight: 300;
+    background-image: url();
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+.accord__number{
+    color: var(--blue_color);
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+}
+
+.item-accord{
+    padding-left: 7px;
+}
+
+.accord__item{
+    padding: 13px 0;
+    color: var(--font_color);
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+}
+
+.accordLast__item{
+    width: 680px;
+    padding-left: 80px;
+    color: var(--font_color);
+    opacity: 0.90;
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+
+.item-accordLast{
+    padding-top: 40px;
 }
 
 /* ======================================================
