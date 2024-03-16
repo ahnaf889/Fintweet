@@ -836,3 +836,105 @@ h1,h2,h3,h4,h5,h6,p,a,div,span,ul,ol{
 /* ======================================================
                      Our Bar Part
 ========================================================= */
+/* ======================================================
+                     Footer Bar Part
+========================================================= */
+
+#footer__bg {
+    background: var(--backgorund_color);
+    padding-bottom: 0 !important;
+    padding-top: 100px;
+}
+
+.footerLeft__text{
+    max-width: 399px;
+    color: var(--white_color);
+    opacity: 0.7;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.footerLeft__head{
+    margin-top: 88px;
+    background: #FCD980;
+}
+
+.footerLeft__email{
+    padding: 18px 0 18px 37px;
+}
+
+.foterLeft__email{
+    color: var(--font_color);
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+
+.foterLest__number{
+    color: var(--font_color);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    opacity: 0.7;
+}
+
+.footerRight__title{
+    color: var(--white_color);
+    font-family: var(--poppins);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+}
+
+.footerRight__text{
+    color: var(--white_color);
+    opacity: 0.8;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.footerRigt__item{
+    column-gap: 15px;
+}
+
+.footerRigt__items{
+    color: var(--white_color);
+    font-size: 20px;
+}
+
+.footerRight__icon{
+    color: var(--font_color);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.foterLeft__title{
+    color: var(--font_color);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+#footersecound__bg{
+    padding: 10px 0;
+}
+
+/* ======================================================
+                     Footer Bar Part
+========================================================= */
