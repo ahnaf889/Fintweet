@@ -4,6 +4,7 @@
 /* ================= Nav Bar Part ================= */
     .nav__item {
     padding-left: 0;
+    margin-right: 20px;
     }
 
     .collapse{
@@ -12,6 +13,11 @@
 /* ================= Nav Bar Part ================= */
 
 /* ================= Footer Bar Part ================= */
+
+    #footter__bg {
+        padding: 50px 0;
+    }
+
     .footerOne__title {
     color: var(--white_color);
     width: 490px;
@@ -69,8 +75,16 @@
         line-height: 21px;
     }
 /* ================= Work Bar Part ================= */
+    #view__bg {
+    padding: 50px 0;
+    }
+
     .view__overlay {
         left: -66%;
+    }
+
+    #future__bg {
+        padding: 50px 0;
     }
 
     .futureTop__title {
@@ -83,9 +97,13 @@
     }
 
     .futureBottom__text {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 500;
-        line-height: 25px;
+        line-height: 24px;
+    }
+
+    #about__bg {
+        padding: 50px 0;
     }
 
     .aboutLeft_title {
@@ -109,6 +127,10 @@
         font-weight: 500;
     }
 
+    #accord__bg {
+        padding: 50px 0;
+    }
+
     .accordLeft__title {
         font-size: 33px;
         line-height: 42px;
@@ -116,6 +138,145 @@
 
     .accordLeft__text {
         margin-top: 10px;
+    }
+
+    .accordion-button::after {
+        height: 0% !important;
+        padding-left: 10px;
+    }
+
+    #web__bg {
+        margin-bottom: 50px;
+    }
+
+    .web__right {
+        padding-top: 10px;
+    }
+
+    .webRight__text {
+        margin-top: -8px;
+        width: 254px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .webRight__btn {
+        margin-top: -20px;
+    }
+
+    .webRight__icon {
+        margin-top: -10px;
+    }
+
+    .webRight__name::placeholder{
+        font-size: 13px;
+    }
+
+    .webRight__name {
+        height: 60px;
+    }
+
+    #our__bg {
+        padding-bottom: 50px;
+    }
+
+    .viewCard__img {
+        margin-top: 0%;
+    }
+
+    .viewCard__imgs {
+        margin-top: 4px;
+    }
+
+    .future__bottom {
+       padding: 27px 0 48px 21px;
+    }
+
+    .accordLast__item {
+        max-width: 547px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .accord__item {
+        padding: 5px 0;
+        font-size: 22px;
+    }
+
+    .item-accordLast {
+        padding-top: 15px;
+    }
+
+    .webLest__overlay {
+        padding: 80px 0 0 70px;
+    }
+
+    .webLeft__title {
+        max-width: 404px;
+        font-size: 51px;
+        line-height: 60px;
+    }
+
+    .webLeft__text {
+        margin-top: 21px;
+        max-width: 401px;
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .our__title {
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .our__text {
+        margin-top: 10px;
+        font-size: 11px;
+        line-height: 19px;
+    }
+
+    .our__head{
+        text-align: center;
+    }
+
+    .our__date{
+        text-align: center;
+    }
+
+    #footer__bg {
+        padding-top: 40px;
+    }
+
+    .footerLeft__text {
+        margin-top: 5px;
+        line-height: 22px;
+    }
+
+    .footerRight__text {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .footerLeft__email {
+        padding: 13px 0 13px 0px;
+    }
+
+    .foterLest__number {
+        margin-top: -5px;
+    }
+
+    #footersecound__bg {
+        padding: 5px 0;
+    }
+
+    .footerLeft__head {
+        margin-top: 62px;
+    }
+
+    .footer__left{
+        margin-top: 17px;
     }
 }
 
