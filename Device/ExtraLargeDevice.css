@@ -1,0 +1,33 @@
+:root{
+    --poppins: "Poppins", sans-serif;
+    --backgorund_color: #1C1E53;
+    --blue_color: #2405F2;
+    --font_color: #282938;
+    --white_color: #FFFFFF;
+}
+
+/* ===================== Extra large ====================== */
+@media (max-width: 1399.98px) { 
+    .nav__item {
+        padding-left: 250px;
+    }
+
+    .aboutBottom__title {
+        font-size: 15px;
+    }
+
+    .web__right {
+        padding-top: 42px;
+    }
+
+   .webRight__text {
+        width: 341px;
+        margin: 0 auto;
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .webLeft__title {
+        line-height: 58px;
+    }
+}
